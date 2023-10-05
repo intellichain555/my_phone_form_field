@@ -25,12 +25,13 @@ class SearchBox extends StatelessWidget {
       child: TextField(
         autofocus: autofocus,
         onChanged: onChanged,
-        hintText: "Search",
+        
         onSubmitted: (_) => onSubmitted(),
         cursorColor: style?.color,
         style: style,
         decoration: decoration ??
             InputDecoration(
+              hintText: "Search",
               prefixIcon: Icon(
                 Icons.search,
                 color: searchIconColor ??
