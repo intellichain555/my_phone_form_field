@@ -31,7 +31,7 @@ class SearchBox extends StatelessWidget {
         style: style,
         decoration: decoration ??
             InputDecoration(
-              hintText: "Search",
+              hintText: "Please enter the country name or area code",
               prefixIcon: Icon(
                 Icons.search,
                 color: searchIconColor ??
@@ -43,7 +43,7 @@ class SearchBox extends StatelessWidget {
               isDense: true,
               border: OutlineInputBorder(
                 borderSide: BorderSide.none,
-                borderRadius: BorderRadius.circular(20),
+                borderRadius: BorderRadius.circular(4),
               ),
             ),
       ),

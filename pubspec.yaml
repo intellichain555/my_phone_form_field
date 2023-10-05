@@ -1,6 +1,6 @@
 name: my_phone_form_field
 description: Flutter phone input integrated with flutter internationalization
-version: 1.0.0
+version: 1.0.2
 homepage: https://github.com/intellichain555/my_phone_form_field
 
 environment:

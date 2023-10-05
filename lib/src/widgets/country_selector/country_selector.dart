@@ -124,12 +124,11 @@ class CountrySelectorState extends State<CountrySelector> {
     return Column(
       children: [
         const SizedBox(height: 8),
-        Container(
-          width: 50,
-          height: 4,
-          decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.secondary,
-            borderRadius: BorderRadius.circular(8),
+        Padding(
+          padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
+          child: Text(
+            'Select country or region',
+            style: FlutterFlowTheme.of(context).bodyMedium,
           ),
         ),
         SizedBox(
