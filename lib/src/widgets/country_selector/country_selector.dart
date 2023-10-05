@@ -128,7 +128,11 @@ class CountrySelectorState extends State<CountrySelector> {
           padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
           child: Text(
             'Select country or region',
-            style: FlutterFlowTheme.of(context).bodyMedium,
+            // style: TextStyle(
+            //   fontFamily: 'MaterialIcons',
+            //   fontWeight: FontWeight.w600,
+            //   fontSize: 16,
+            // ),
           ),
         ),
         SizedBox(
